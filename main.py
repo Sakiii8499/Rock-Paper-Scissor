@@ -1,4 +1,5 @@
 # rock paper scissor game
+import random
 
 human_point = 0
 computer_point = 0
@@ -11,7 +12,6 @@ print("Choose from\nrock\npaper\nscissor")
 while no_of_chance < chances:
     inp = input("\nEnter your choice\n")
     options = ["rock", "paper", "scissor"]
-    import random
     choice = random.choice(options)
 
     if inp == "rock" and choice == "paper":
