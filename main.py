@@ -76,5 +76,3 @@ if computer_point < human_point:
 if computer_point == human_point:
     print("This is a tie between both of you")
 a = input()
-
-
